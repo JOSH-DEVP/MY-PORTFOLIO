@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white dark:bg-gray-800 shadow-lg z-50">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-3xl font-bold text-gray-800 dark:text-white flex items-center">
+                    <span class="text-blue-500">Port</span>folio
+                </div>
+                <div class="hidden md:flex space-x-10">
+                    <a href="#home" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg font-bold">Home</a>
+                    <a href="#about" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg font-bold">About</a>
+                    <a href="#skills" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg font-bold">Skills</a>
+                    <a href="#projects" class="text-gray-600 dark:text-gray-300 hover:text-blue-500 transition-colors duration-300 text-lg font-bold">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-gray-900 relative overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-10"></div>
+        <div class="absolute inset-0">
+            <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmZmZmYiIGZpbGwtb3BhY2l0eT0iMC40Ij48cGF0aCBkPSJNMzYgMzRjMC0yLjIxLTEuNzktNC00LTRzLTQgMS43OS00IDQgMS43OSA0IDQgNCA0LTEuNzkgNC00eiIvPjwvZz48L2c+PC9zdmc+')] opacity-10"></div>
+        </div>
+        <div class="container mx-auto px-6">
+            <div class="flex items-center justify-between">
+                <div class="text-left text-gray-800 dark:text-white relative z-10 max-w-2xl">
+                    <div class="animate-float mb-8">
+                        <img src="logo.jfif" alt="Profile" class="w-32 h-32 rounded-full border-4 border-gray-300 dark:border-gray-600 shadow-lg">
+                    </div>
+                    <h1 class="text-6xl font-bold mb-4 animate-fade-in">WELCOME TO MY PORTFOLIO</h1>
+                    <p class="text-2xl mb-8 animate-fade-in-delay">Joshua Reine Lacson | Full Stack Developer</p>
+                    <div class="animate-fade-in-delay-2">
+                        <a href="#projects" class="bg-transparent border-2 border-gray-800 text-gray-800 dark:border-white dark:text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-800 hover:text-white dark:hover:bg-white dark:hover:text-gray-800 transition duration-300 transform hover:scale-105">View Projects</a>
+                    </div>
+                </div>
+                <div class="hidden lg:block relative z-10">
+                    <img src="header.png" alt="Header" class="w-full max-w-2xl animate-float">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">ABOUT ME</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 gap-12 items-start">
+                    <div class="space-y-6">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">About Me</h3>
+                            <p class="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+                                I'm a highly motivated and hardworking graduate of Bachelor of Science in Information Technology. I have hands-on experience in web design, software development, video editing, and public speaking. I strive to grow professionally and help companies achieve their goals through creative and technical solutions.
+                            </p>
+                        </div>
+                      
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Experience</h3>
+                            <div class="space-y-6">
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 dark:text-white">Software and Website Developer</h4>
+                                    <p class="text-blue-600 dark:text-blue-400">March 3, 2025 – May 2025</p>
+                                    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mt-2">
+                                        <li>Designed and developed software solutions and websites.</li>
+                                        <li>Managed project timelines ensuring high-quality outputs.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 dark:text-white">Database Analyst and Management</h4>
+                                    <p class="text-blue-600 dark:text-blue-400">March 3, 2025 – May 2025</p>
+                                    <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 mt-2">
+                                        <li>Managed, analyzed, and optimized large sets of organizational data.</li>
+                                        <li>Designed efficient database solutions and ensured data security and integrity.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-8">
+                        <div>
+                            <h3 class="text-2xl font-semibold text-gray-800 dark:text-white mb-4">Skills</h3>
+                            <div class="space-y-6">
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Software and Web Development</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">HTML</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">CSS</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Bootstrap</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">PHP</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">MySQL</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Java</span>
+                                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Other Technical Skills</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Troubleshooting</span>
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Product Validation</span>
+                                        <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">OOP with Java</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Creative Skills</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Video Editing</span>
+                                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Photo Editing</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="text-xl font-semibold text-gray-800 dark:text-white mb-2">Soft Skills</h4>
+                                    <div class="flex flex-wrap gap-2">
+                                        <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Leadership</span>
+                                        <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Effective Communication</span>
+                                        <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Critical Thinking</span>
+                                        <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Public Speaking</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-gray-100 dark:bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">SKILLS</h2>
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Software and Web Development -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-code text-4xl text-blue-500 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Software and Web Development</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">HTML</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">CSS</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Bootstrap</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">JavaScript</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">PHP</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">MySQL</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">C#</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Java</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Python</span>
+                        </div>
+                    </div>
+
+                    <!-- Other Technical Skills -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-tools text-4xl text-green-500 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Other Technical Skills</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Troubleshooting</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Product Validation</span>
+                            <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">OOP with Java</span>
+                        </div>
+                    </div>
+
+                    <!-- Creative Skills -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-palette text-4xl text-purple-500 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Creative Skills</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Video Editing</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Photo Editing</span>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-users text-4xl text-yellow-500 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Soft Skills</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Leadership</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Effective Communication</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Critical Thinking</span>
+                            <span class="bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Public Speaking</span>
+                        </div>
+                    </div>
+
+                    <!-- Game Testing -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-gamepad text-4xl text-blue-500 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">Game Testing</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Quality Assurance</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Bug Reporting</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">Performance Testing</span>
+                            <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">User Experience</span>
+                        </div>
+                    </div>
+
+                    <!-- AI Software Development -->
+                    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                        <div class="text-center mb-4">
+                            <i class="fas fa-robot text-4xl text-purple-500 mb-4"></i>
+                            <h3 class="text-xl font-semibold text-gray-800 dark:text-white mb-4">AI Software And Website Development</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">OpenAI Integration</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Machine Learning</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">Natural Language Processing</span>
+                            <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm">AI Model Training</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white dark:bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center text-gray-800 dark:text-white mb-12">PROJECTS</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card 1 -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="relative">
+                        <div class="relative h-96 overflow-hidden">
+                            <img src="sccs.png" alt="Project 1" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <button onclick="openModal('sccs.png')" class="bg-white text-gray-800 px-4 py-2 rounded-full font-semibold hover:bg-gray-100 transition duration-300">View Image</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl text-gray-800 dark:text-white mb-2">SUPREME CAR CARE SERVICES SALES AND INVENTORY MANAGEMENT SYSTEM</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">The Supreme Car Care Sales and Inventory Management System is a modern solution for tracking inventory and sales in real-time. This system allows owners and managers to monitor product stock and sales accurately. Real-time data helps manage products, prevent stockouts, and ensure accurate pricing. It is designed to be user-friendly, helping automotive shops streamline operations and improve customer service for better business growth.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">C#</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">WinForm</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Guna UI</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded">Hostinger Database</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="relative">
+                        <div class="relative h-96 overflow-hidden">
+                            <img src="sccs1.PNG" alt="Project 2" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <button onclick="openModal('sccs1.PNG')" class="bg-white text-gray-800 px-4 py-2 rounded-full font-semibold hover:bg-gray-100 transition duration-300">View Image</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl text-gray-800 dark:text-white mb-2">SUPREME CAR CARE SERVICES ONLINE RESERVATION</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">The Supreme Car Care Services Online Reservation system provides a convenient and efficient way for customers to book automotive services online. Users can schedule appointments for services like oil changes, tire rotations, and engine diagnostics, all from home or on the go. This system integrates a user-friendly web interface with real-time scheduling and database management, streamlining the reservation process and enhancing customer satisfaction.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">PHP</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Hostinger Hosting</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">Hostinger Domain</span>
+                            <span class="bg-yellow-100 text-yellow-800 text-xs font-semibold px-2.5 py-0.5 rounded">Hostinger Database</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    <div class="relative">
+                        <div class="relative h-96 overflow-hidden">
+                            <img src="BRGY.PNG" alt="Project 3" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                                <button onclick="openModal('BRGY.PNG')" class="bg-white text-gray-800 px-4 py-2 rounded-full font-semibold hover:bg-gray-100 transition duration-300">View Image</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-bold text-xl text-gray-800 dark:text-white mb-2">BARANGAY DATABASE ENCODING SYSTEM</h3>
+                        <p class="text-gray-600 dark:text-gray-300 mb-4">The Barangay Database Encoding System is a software solution designed to simplify the management and storage of resident data for barangay offices. It automates the encoding, storing, and retrieving of resident information, including personal details, household records, and community interactions. This system helps barangay officials efficiently manage and access data for administrative tasks.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">C#</span>
+                            <span class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">WinForm</span>
+                            <span class="bg-purple-100 text-purple-800 text-xs font-semibold px-2.5 py-0.5 rounded">SQL Database</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Joshua Reine Lacson</h3>
+                    <p class="text-gray-400">Full Stack Developer | UI/UX Enthusiast</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition-colors duration-300">Home</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About</a></li>
+                        <li><a href="#skills" class="text-gray-400 hover:text-white transition-colors duration-300">Skills</a></li>
+                        <li><a href="#projects" class="text-gray-400 hover:text-white transition-colors duration-300">Projects</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <div class="space-y-2">
+                        <p class="text-gray-400">Email: <a href="mailto:joshdevp@gmail.com" class="text-white hover:text-blue-400 transition-colors duration-300">joshdevp@gmail.com</a></p>
+                        <div class="flex space-x-4 mt-4">
+                            <a href="https://github.com/JOSH-DEVP" target="_blank" class="text-gray-400 hover:text-white transition-colors duration-300"><i class="fab fa-github text-2xl"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2025 Joshua Reine Lacson. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-75 hidden items-center justify-center z-50">
+        <div class="bg-white dark:bg-gray-800 p-4 rounded-lg max-w-6xl w-full mx-4 relative">
+            <button onclick="closeModal()" class="absolute top-2 right-2 text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200">
+                <i class="fas fa-times text-2xl"></i>
+            </button>
+            <div class="mt-4">
+                <img id="modalImage" src="" alt="Project Image" class="w-full h-auto rounded-lg">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImage = document.getElementById('modalImage');
+            modalImage.src = imageSrc;
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside the image
+        document.getElementById('imageModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>
